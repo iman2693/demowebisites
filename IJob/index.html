@@ -1,0 +1,797 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/nouislider.min.css">
+	<link rel="stylesheet" href="css/select2.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32">
+	<link rel="apple-touch-icon" href="icon/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icon/apple-touch-icon-144x144.png">
+
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Dmitry Volkov">
+	<!--iJ – Job Board & Freelance Services Marketplace HTML Template-->
+	<title>آی جی | کاریابی و فریلنسر</title>
+</head>
+
+<body>
+	<!-- header -->
+	<header class="header">
+		<div class="container">
+			<div class="row" style="flex-direction:row;">
+				<div class="col-7 col-md-9 col-lg-8 col-xl-9">
+					<div class="header__content">
+						<!-- header menu btn -->
+						<button class="header__btn" type="button">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+						<!-- end header menu btn -->
+
+						<!-- header logo -->
+						<a href="index.html" class="header__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+						<!-- end header logo -->
+
+						<!-- header nav -->
+						<ul class="header__nav">
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a href="index.html" class="header__nav-link">خانه</a>
+							</li>
+							<!-- end dropdown -->
+
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a class="dropdown-toggle header__nav-link" href="#" role="button" id="dropdownMenuProjects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">پروژه ها</a>
+
+								<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuProjects">
+									<li><a href="projects.html">پروژه ها</a></li>
+									<li><a href="project.html">پروژه تکی</a></li>
+									<li><a href="add-project.html">گذاشتن پروژه</a></li>
+								</ul>
+							</li>
+							<!-- end dropdown -->
+
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a class="dropdown-toggle header__nav-link" href="#" role="button" id="dropdownMenuJobs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">شغل ها</a>
+
+								<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuJobs">
+									<li><a href="jobs.html">شغل ها</a></li>
+									<li><a href="job.html">شغل تکی</a></li>
+									<li><a href="add-job.html">گذاشتن شغل</a></li>
+								</ul>
+							</li>
+							<!-- end dropdown -->
+
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a class="dropdown-toggle header__nav-link" href="#" role="button" id="dropdownMenuCompanies" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">شرکت ها</a>
+
+								<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuCompanies">
+									<li><a href="companies.html">شرکت ها</a></li>
+									<li><a href="company.html">پروفایل شرکت</a></li>
+								</ul>
+							</li>
+							<!-- end dropdown -->
+
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a class="dropdown-toggle header__nav-link" href="#" role="button" id="dropdownMenuProfiles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">پروفایل ها</a>
+
+								<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuProfiles">
+									<li><a href="profiles.html">پروفایل ها</a></li>
+									<li><a href="profile.html">پروفایل</a></li>
+								</ul>
+							</li>
+							<!-- end dropdown -->
+
+							<!-- dropdown -->
+							<li class="header__nav-item">
+								<a class="dropdown-toggle header__nav-link" href="#" role="button" id="dropdownMenuPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">صفحات</a>
+
+								<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuPages">
+									<li><a href="messages.html">پیام</a></li>
+									<li><a href="faq.html">مرکز کمک</a></li>
+									<li><a href="contacts.html">تماس با ما</a></li>
+									<li><a href="privacy.html">قوانین</a></li>
+									<li><a href="signin.html">ورود</a></li>
+									<li><a href="signup.html">ثبت نام</a></li>
+									<li><a href="forgot.html">فراموشی رمز عبور</a></li>
+								</ul>
+							</li>
+							<!-- end dropdown -->
+						</ul>
+						<!-- end header nav -->
+
+						<!-- header search -->
+						<form action="#" class="header__search">
+							<input class="header__search-input" type="text" placeholder="جستجو...">
+							<button class="header__search-button" type="button">
+								<i class="icon ion-ios-search"></i>
+							</button>
+						</form>
+						<!-- end header search -->
+					</div>
+				</div>
+
+				<div class="col-5 col-md-3 col-lg-4 col-xl-3">
+					<div class="header__content header__content--end">
+						<a href="messages.html" class="header__messages header__messages--active">
+							<i class="icon ion-ios-mail"></i>
+						</a>
+
+						<div class="header__notifications">
+							<a class="dropdown-toggle header__notifications-btn header__notifications-btn--active" href="#" role="button" id="dropdownMenuNotifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="icon ion-ios-notifications"></i>
+							</a>
+
+							<div class="dropdown-menu dropdown-menu-left header__dropdown-menu header__dropdown-menu--left header__dropdown-menu--ntf" aria-labelledby="dropdownMenuNotifications">
+								<div class="header__ntf">
+									<a href="#" class="header__ntf-img">
+										<img src="img/user3.jpg" alt="">
+									</a>
+									<h6 class="header__ntf-title">
+										<span>مارشا بالدوین</span> روی پروژه شما نظر گذاشته است.
+									</h6>
+								</div>
+
+								<div class="header__ntf">
+									<a href="#" class="header__ntf-img">
+										<img src="img/user7.jpg" alt="">
+									</a>
+									<h6 class="header__ntf-title">
+										<span>اندی راموس</span> روی پروژه شما نظر گذاشته است.
+									</h6>
+								</div>
+
+								<div class="header__ntf">
+									<a href="#" class="header__ntf-img">
+										<img src="img/user4.jpg" alt="">
+									</a>
+									<h6 class="header__ntf-title">
+										<span>سوفیا مندوزا</span> روی پروژه شما نظر گذاشته است.
+									</h6>
+								</div>
+
+								<div class="header__ntf">
+									<a href="#" class="header__ntf-img">
+										<img src="img/user1.jpg" alt="">
+									</a>
+									<h6 class="header__ntf-title">
+										<span>تونی یانگ</span> روی پروژه شما نظر گذاشته است.
+									</h6>
+								</div>
+
+								<a href="#" class="header__ntf-more">بیشتر ببینید</a>
+							</div>
+						</div>
+
+						<div class="header__profile">
+							<a class="dropdown-toggle header__profile-btn" href="#" role="button" id="dropdownMenuProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="img/user5.jpg" alt="">
+								<span>جان دو</span>
+							</a>
+
+							<ul class="dropdown-menu dropdown-menu-left header__dropdown-menu header__dropdown-menu--left" aria-labelledby="dropdownMenuProfile">
+								<li><a href="profile.html"><i class="icon ion-ios-settings"></i> تنظیمات</a></li>
+								<li><a href="privacy.html"><i class="icon ion-ios-lock"></i> خصوصی</a></li>
+								<li><a href="faq.html"><i class="icon ion-ios-help-buoy"></i> سوالات متداول</a></li>
+								<li><a href="#"><i class="icon ion-ios-exit"></i> خروج</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<!-- main content -->
+	<main class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-5 col-lg-4 col-xl-3">
+					<!-- user -->
+					<div class="user">
+						<div class="user__head">
+							<div class="user__img">
+								<img src="img/user5.jpg" alt="">
+							</div>
+						</div>
+						<div class="user__title">
+							<h2>جان دو</h2>
+							<p>توسعه دهنده فرانت اند</p>
+						</div>
+						<div class="user__btns">
+							<a href="add-project.html" class="user__btn user__btn--blue"><span>گذاشتن پروژه</span></a>
+							<a href="add-job.html" class="user__btn user__btn--orange"><span>گذاشتن شغل</span></a>
+						</div>
+						<ul class="user__stats">
+							<li>
+								<p>دنبال میکند</p>
+								<span>26</span>
+							</li>
+							<li>
+								<p>دنبال کننده ها</p>
+								<span>88</span>
+							</li>
+						</ul>
+						<a href="profile.html" class="sidebox__more">پروفایل را ببینید</a>
+					</div>
+					<!-- end user -->
+
+					<!-- sidebox -->
+					<div class="sidebox">
+						<h4 class="sidebox__title">پیشنهادات</h4>
+						<div class="sidebox__content">
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user7.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">اندی راموس</a></h5>
+									<p>منشی</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user1.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">تونی یانگ</a></h5>
+									<p>گیاه شناس</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user2.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">سنتیاگو رابینسون</a></h5>
+									<p>طراح مد</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user3.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">سوفیا ماندوزا</a></h5>
+									<p>کمک مدرس</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user4.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">مارشا بالدوین</a></h5>
+									<p>باغبان</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+						</div>
+						<a href="#" class="sidebox__more">بیشتر ببینید</a>
+					</div>
+					<!-- end sidebox -->
+				</div>
+
+				<div class="col-12 col-md-7 col-lg-8 col-xl-6">
+					<!-- post -->
+					<div class="post">
+						<div class="post__head">
+							<a href="#" class="post__head-img">
+								<img src="img/user8.jpg" alt="">
+							</a>
+							<div class="post__head-title">
+								<h5><a href="#">سباستین لبی</a></h5>
+								<p>11 دقیقه پیش</p>
+							</div>
+
+							<div class="post__dropdown">
+								<a class="dropdown-toggle post__dropdown-btn" href="#" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="icon ion-md-more"></i>
+								</a>
+
+								<ul class="dropdown-menu dropdown-menu-left post__dropdown-menu" aria-labelledby="dropdownMenu1">
+									<li><a href="#">ویرایش</a></li>
+									<li><a href="#">حذف</a></li>
+									<li><a href="#">مخفی</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="post__wrap">
+							<div class="post__company">
+								<i class="icon ion-ios-briefcase"></i>
+								<span>انواتو</span>
+							</div>
+
+							<div class="post__location">
+								<i class="icon ion-ios-navigate"></i>
+								<span>استرالیا</span>
+							</div>
+
+							<div class="post__actions">
+								<a class="post__actions-btn post__actions-btn--green" href="#">
+									<i class="icon ion-ios-bookmark"></i>
+								</a>
+								<a class="post__actions-btn post__actions-btn--red" href="#">
+									<i class="icon ion-ios-mail"></i>
+								</a>
+							</div>
+						</div>
+
+						<h2 class="post__title">توسعه دهنده ارشد وردپرس</h2>
+
+						<div class="post__options">
+							<span>تمام وقت</span>
+							<p>36 هزار تومان در ساعت</p>
+						</div>
+
+						<div class="post__description">
+							<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+							<a href="#">بیشتر ببینید</a>
+						</div>
+
+						<div class="post__tags">
+							<a href="#">HTML</a>
+							<a href="#">CSS</a>
+							<a href="#">PHP</a>
+						</div>
+
+						<div class="post__stats">
+							<div>
+								<a class="post__likes" href="#"><i class="icon ion-ios-heart"></i> <span>15</span></a>
+								<a class="post__comments" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1"><i class="icon ion-ios-text"></i> <span>0</span></a>
+							</div>
+
+							<div class="post__views">
+								<i class="icon ion-ios-eye"></i> <span>214</span>
+							</div>
+						</div>
+
+						<div class="collapse post__collapse" id="collapse1">
+							<form action="#" class="post__form">
+								<input type="text" placeholder="نظر خود را بنویسید...">
+								<button type="button"><i class="icon ion-ios-paper-plane"></i></button>
+							</form>
+						</div>
+					</div>
+					<!-- end post -->
+
+					<!-- post -->
+					<div class="post">
+						<div class="post__head">
+							<a href="#" class="post__head-img">
+								<img src="img/user5.jpg" alt="">
+							</a>
+							<div class="post__head-title">
+								<h5><a href="#">جان دو</a></h5>
+								<p>24 دقیقه پیش</p>
+							</div>
+
+							<div class="post__dropdown">
+								<a class="dropdown-toggle post__dropdown-btn" href="#" role="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="icon ion-md-more"></i>
+								</a>
+
+								<ul class="dropdown-menu dropdown-menu-left post__dropdown-menu" aria-labelledby="dropdownMenu3">
+									<li><a href="#">ویرایش</a></li>
+									<li><a href="#">حذف</a></li>
+									<li><a href="#">مخفی</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="post__wrap">
+							<div class="post__company">
+								<i class="icon ion-ios-briefcase"></i>
+								<span>توسعه دهنده فرانت اند</span>
+							</div>
+
+							<div class="post__actions">
+								<a class="post__actions-btn post__actions-btn--green" href="#">
+									<i class="icon ion-ios-bookmark"></i>
+								</a>
+								<a class="post__actions-btn post__actions-btn--red" href="#">
+									<i class="icon ion-ios-mail"></i>
+								</a>
+								<a href="#" class="post__actions-btn post__actions-btn--blue"><span>اکنون پیشنهاد دهید</span></a>
+							</div>
+						</div>
+
+						<h2 class="post__title">PSD به HTML</h2>
+
+						<div class="post__options">
+							<p>500 - 700 هزار تومان</p>
+						</div>
+
+						<div class="post__description">
+							<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+							<a href="#">بیشتر ببینید</a>
+						</div>
+
+						<div class="post__tags">
+							<a href="#">HTML</a>
+							<a href="#">CSS</a>
+							<a href="#">JS</a>
+							<a href="#">PSD</a>
+						</div>
+
+						<div class="post__stats">
+							<div>
+								<a class="post__likes" href="#"><i class="icon ion-ios-heart"></i> <span>15</span></a>
+								<a class="post__comments" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse1"><i class="icon ion-ios-text"></i> <span>0</span></a>
+							</div>
+
+							<div class="post__views">
+								<i class="icon ion-ios-eye"></i> <span>214</span>
+							</div>
+						</div>
+
+						<div class="collapse post__collapse" id="collapse3">
+							<form action="#" class="post__form">
+								<input type="text" placeholder="نظر خود را بنویسید...">
+								<button type="button"><i class="icon ion-ios-paper-plane"></i></button>
+							</form>
+						</div>
+					</div>
+					<!-- end post -->
+
+					<!-- post -->
+					<div class="post">
+						<div class="post__head">
+							<a href="#" class="post__head-img">
+								<img src="img/user8.jpg" alt="">
+							</a>
+							<div class="post__head-title">
+								<h5><a href="#">سباستین لی</a></h5>
+								<p>45 دقیقه پیش</p>
+							</div>
+
+							<div class="post__dropdown">
+								<a class="dropdown-toggle post__dropdown-btn" href="#" role="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="icon ion-md-more"></i>
+								</a>
+
+								<ul class="dropdown-menu dropdown-menu-left post__dropdown-menu" aria-labelledby="dropdownMenu2">
+									<li><a href="#">ویرایش</a></li>
+									<li><a href="#">حذف</a></li>
+									<li><a href="#">مخفی</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="post__wrap">
+							<div class="post__company">
+								<i class="icon ion-ios-briefcase"></i>
+								<span>انواتو</span>
+							</div>
+
+							<div class="post__location">
+								<i class="icon ion-ios-navigate"></i>
+								<span>استرالیا</span>
+							</div>
+
+							<div class="post__actions">
+								<a class="post__actions-btn post__actions-btn--green" href="#">
+									<i class="icon ion-ios-bookmark"></i>
+								</a>
+								<a class="post__actions-btn post__actions-btn--red" href="#">
+									<i class="icon ion-ios-mail"></i>
+								</a>
+							</div>
+						</div>
+
+						<h2 class="post__title">توسعه دهنده ارشد وردپرس</h2>
+
+						<div class="post__options">
+							<span>تمام وقت</span>
+							<p>35 هزار تومان در دقیقه</p>
+						</div>
+
+						<div class="post__description">
+							<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+							<a href="#">بیشتر ببینید</a>
+						</div>
+
+						<div class="post__tags">
+							<a href="#">HTML</a>
+							<a href="#">CSS</a>
+							<a href="#">PHP</a>
+						</div>
+
+						<div class="post__stats">
+							<div>
+								<a class="post__likes" href="#"><i class="icon ion-ios-heart"></i> <span>15</span></a>
+								<a class="post__comments" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="true" aria-controls="collapse2"><i class="icon ion-ios-text"></i> <span>2</span></a>
+							</div>
+
+							<div class="post__views">
+								<i class="icon ion-ios-eye"></i> <span>214</span>
+							</div>
+						</div>
+
+						<div class="collapse show post__collapse" id="collapse2">
+							<form action="#" class="post__form">
+								<input type="text" placeholder="نظر خود را بنویسید">
+								<button type="button"><i class="icon ion-ios-paper-plane"></i></button>
+							</form>
+
+							<div class="post__comment">
+								<a href="#" class="post__comment-img">
+									<img src="img/user9.jpg" alt="">
+								</a>
+								<div class="post__comment-title">
+									<h5><a href="#">آلان پاتریک</a></h5>
+									<p>20 دقیقه پیش</p>
+								</div>
+
+								<p class="post__comment-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+							</div>
+
+							<div class="post__comment">
+								<a href="#" class="post__comment-img">
+									<img src="img/user2.jpg" alt="">
+								</a>
+								<div class="post__comment-title">
+									<h5><a href="#">دیگو کاستا</a></h5>
+									<p>22 دقیقه پیش</p>
+								</div>
+
+								<p class="post__comment-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+							</div>
+						</div>
+					</div>
+					<!-- end post -->
+
+					<!-- view more -->
+					<button class="main__btn" type="button"><span>بارگزاری بیشتر</span></button>
+					<!-- end view more -->
+				</div>
+
+				<div class="col-12 col-md-5 col-lg-4 col-xl-3">
+					<!-- sidebox -->
+					<div class="sidebox sidebox--desk">
+						<h4 class="sidebox__title">شغل های برتر</h4>
+						<div class="sidebox__content">
+							<div class="sidebox__job">
+								<div class="sidebox__job-title">
+									<a href="#">توسعه دهنده فرانت اند</a>
+									<span>25 هزار تومان در ساعت</span>
+								</div>
+								<p class="sidebox__job-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+								</p>
+							</div>
+
+							<div class="sidebox__job">
+								<div class="sidebox__job-title">
+									<a href="#">طراح UI/UX</a>
+									<span>20 هزار تومان در ساعت</span>
+								</div>
+								<p class="sidebox__job-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+								</p>
+							</div>
+
+							<div class="sidebox__job">
+								<div class="sidebox__job-title">
+									<a href="#">توسعه دهنده بک اند</a>
+									<span>25 هزار تومان در ساعت</span>
+								</div>
+								<p class="sidebox__job-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+								</p>
+							</div>
+
+							<div class="sidebox__job">
+								<div class="sidebox__job-title">
+									<a href="#">مدیر تیم</a>
+									<span>38 هزار تومان در دقیقه</span>
+								</div>
+								<p class="sidebox__job-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+								</p>
+							</div>
+
+							<div class="sidebox__job">
+								<div class="sidebox__job-title">
+									<a href="#">توسعه دهنده ارشد جاوا</a>
+									<span>35 هزار تومان در دقیقه</span>
+								</div>
+								<p class="sidebox__job-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+								</p>
+							</div>
+						</div>
+						<a href="#" class="sidebox__more">بیشتر ببینید</a>
+					</div>
+					<!-- end sidebox -->
+
+					<!-- sidebox -->
+					<div class="sidebox sidebox--desk">
+						<h4 class="sidebox__title">بیشترین بازدید در هفته</h4>
+						<div class="sidebox__content">
+							<div class="sidebox__job">
+								<div class="sidebox__job-title">
+									<a href="#">طراح UI/UX</a>
+									<span>20 هزار تومان بر ساعت</span>
+								</div>
+								<p class="sidebox__job-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+								</p>
+							</div>
+
+							<div class="sidebox__job">
+								<div class="sidebox__job-title">
+									<a href="#">توسعه دهنده بک اند</a>
+									<span>27 هزار تومان در ساعت</span>
+								</div>
+								<p class="sidebox__job-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+								</p>
+							</div>
+
+							<div class="sidebox__job">
+								<div class="sidebox__job-title">
+									<a href="#">توسعه دهنده ارشد جاوا</a>
+									<span>35 هزار تومان بر ساعت</span>
+								</div>
+								<p class="sidebox__job-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+								</p>
+							</div>
+						</div>
+						<a href="#" class="sidebox__more">بیشتر ببینید</a>
+					</div>
+					<!-- end sidebox -->
+
+					<!-- sidebox -->
+					<div class="sidebox sidebox--desk">
+						<h4 class="sidebox__title">بیشترین بازدید</h4>
+						<div class="sidebox__content">
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user3.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">مارشا بالدوین</a></h5>
+									<p>منشی</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user2.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">تونی یانگ</a></h5>
+									<p>گیاه شناس</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user9.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">سانتیاگو رابینسون</a></h5>
+									<p>طراح مد</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user4.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">سوفیا مندوزا</a></h5>
+									<p>کمک مدرس</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+
+							<div class="sidebox__user">
+								<a href="#" class="sidebox__user-img">
+									<img src="img/user6.jpg" alt="">
+								</a>
+								<div class="sidebox__user-title">
+									<h5><a href="#">مارشا بالدوین</a></h5>
+									<p>باغبان</p>
+								</div>
+								<button class="sidebox__user-btn" type="button">
+									<i class="icon ion-ios-add"></i>
+								</button>
+							</div>
+						</div>
+						<a href="#" class="sidebox__more">بیشتر ببینید</a>
+					</div>
+					<!-- end sidebox -->
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- end main content -->
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="footer__content">
+						<a href="index.html" class="footer__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+
+						<span class="footer__copyright">© 2020 آی جاب<br> راست چین شده توسط <a href="#" target="_blank">ایمان کیانیان.</a></span>
+
+						<nav class="footer__nav">
+							<a href="contacts.html">تماس با ما</a>
+							<a href="faq.html">سوالات متداول</a>
+							<a href="privacy.html">حریم خصوصی</a>
+						</nav>
+
+						<button class="footer__back" type="button">
+							<i class="icon ion-ios-arrow-round-up"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<!-- JS -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/wNumb.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/select2.min.js"></script>
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
